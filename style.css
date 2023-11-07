@@ -1,0 +1,107 @@
+body {
+  background-image: url('poiuu.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 80%; 
+  margin: 0 auto; 
+  padding: 20px; 
+}
+
+header {
+  text-align: center;
+  padding: 15px;
+  background-color: #007BFF; 
+  color: white;
+}
+
+header h1 {
+  font-family: 'Audrey', sans-serif; 
+  font-size: 32px; 
+}
+
+.user-message {
+  color: #007BFF; 
+}
+
+.other-message {
+  color: #333; 
+}
+
+
+.message input[type="text"],
+.form-control {
+  width: 100%;
+  padding: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px; 
+}
+
+
+.message input[type="submit"],
+.btn-primary,
+.btn-danger {
+  padding: 10px 20px; 
+  border-radius: 5px;
+}
+
+
+.btn-primary {
+  background-color: #28a745; 
+  border-color: #28a745;
+  color: white;
+}
+
+
+.btn-danger {
+  background-color: #dc3545; 
+  border-color: #dc3545;
+  color: white;
+}
+
+.table th {
+  background-color: #007BFF; 
+  color: white;
+  font-weight: bold;
+}
+
+
+.table tbody tr:nth-child(even) {
+  background-color: #0cc79e;
+}
+
+
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  background-color: #007BFF; 
+  border-radius: 10px 10px 0 0;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.form-group h4 {
+  margin-bottom: 20px;
+}
+
+
+.btn-primary:hover {
+  background-color: #218838; 
+  border-color: #218838;
+}
+
+.btn-danger:hover {
+  background-color: #c82333; 
+  border-color: #bd2130;
+}
